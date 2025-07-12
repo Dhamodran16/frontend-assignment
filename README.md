@@ -1,12 +1,110 @@
-# React + Vite
+# 💼 Frontend Assessment – Job Details Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Job Details Dashboard Page** built using **React.js**, developed as part of the Frontend Assignment. The objective is to closely replicate the UI/UX provided via screenshot and Figma, and implement routing with placeholder pages.
 
-Currently, two official plugins are available:
+## 🎯 Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Replicate the given design (Figma/screenshot) into a working React application with:
+- Clean layout and styling
+- Routing between pages
+- Component-based architecture
+- Screenshot comparison support
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ UI/UX Design Reference
+
+- Match your implementation with the **Figma file** and **reference screenshot** sent via email.
+- Layout should match:
+  - Header, sidebar
+  - Typography
+  - Sections (Job Info, Skills, Salary, etc.)
+  - Grid and spacing
+  - Colors and shadows
+
+---
+
+## 📂 Project Structure
+
+frontend-assignment/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ │ ├── JobPreview.jsx
+│ │ ├── Applicants.jsx
+│ │ ├── Match.jsx
+│ │ ├── Messages.jsx
+│ │ └── JobDetails.jsx
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+
+
+---
+
+## 🚀 Live Routes
+
+| Route Path       | Description                        |
+|------------------|------------------------------------|
+| `/job-preview`   | Placeholder - Page yet to be implemented |
+| `/applicants`    | Placeholder - Page yet to be implemented |
+| `/match`         | Placeholder - Page yet to be implemented |
+| `/messages`      | Placeholder - Page yet to be implemented |
+| `/job-details/:id` | Job Details Page (main design)      |
+
+Each unimplemented route will display a **"Page Yet To Be Implemented"** message.
+
+---
+
+## 🧩 Features
+
+✅ React Functional Components  
+✅ TailwindCSS Styling  
+✅ React Router DOM v6+  
+✅ Screenshot diff-ready layout  
+✅ Responsive design up to 1440px width
+
+---
+
+## 📸 Screenshot Comparison Steps
+
+1. Install [GoFullPage](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl) Chrome extension.
+2. Capture your full webpage screenshot.
+3. Upload both the provided screenshot and your screenshot to [DiffChecker](https://www.diffchecker.com/image-diff/).
+4. Select **"Difference"** tab, export the result as PNG.
+5. Upload this PNG in the Google Form along with your GitHub repo link.
+
+---
+
+## 📝 Evaluation Criteria
+
+| Criteria                          | Points |
+|----------------------------------|--------|
+| 🎨 UI/UX Match (Figma accuracy)   | 20     |
+| 🔁 Routing (/job-details/:id)     | 6      |
+| 📌 Sidebar & Header Layout        | 6      |
+| 🧾 Job Details Section Accuracy   | 8      |
+| 🖼️ Screenshot Difference Uploaded | 4      |
+| 🧱 Code Structure & Cleanliness   | 3      |
+| 📱 Responsiveness (mobile scaling)| 3      |
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+- Git
+
+### Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/frontend-assignment.git
+cd frontend-assignment
+npm install
+npm run dev
