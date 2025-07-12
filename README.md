@@ -10,7 +10,6 @@ This is a **minimal React + Vite project setup**, ideal for quickly building and
 - ⚡ Vite
 - 🛠️ Babel or SWC (via Vite plugins)
 - ✅ ESLint (for linting JS/JSX)
-- 🎯 Optional: TypeScript (for production-ready apps)
 
 ---
 
