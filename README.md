@@ -1,110 +1,54 @@
-# 💼 Frontend Assessment – Job Details Page
+# 🚀 React + Vite Template (frontend_1)
 
-This project is a **Job Details Dashboard Page** built using **React.js**, developed as part of the Frontend Assignment. The objective is to closely replicate the UI/UX provided via screenshot and Figma, and implement routing with placeholder pages.
-
-## 🎯 Objective
-
-Replicate the given design (Figma/screenshot) into a working React application with:
-- Clean layout and styling
-- Routing between pages
-- Component-based architecture
-- Screenshot comparison support
+This is a **minimal React + Vite project setup**, ideal for quickly building and testing React applications with **Hot Module Replacement (HMR)** and basic **ESLint rules**.
 
 ---
 
-## 🖼️ UI/UX Design Reference
+## 📦 Tech Stack
 
-- Match your implementation with the **Figma file** and **reference screenshot** sent via email.
-- Layout should match:
-  - Header, sidebar
-  - Typography
-  - Sections (Job Info, Skills, Salary, etc.)
-  - Grid and spacing
-  - Colors and shadows
+- ⚛️ React
+- ⚡ Vite
+- 🛠️ Babel or SWC (via Vite plugins)
+- ✅ ESLint (for linting JS/JSX)
+- 🎯 Optional: TypeScript (for production-ready apps)
 
 ---
 
-## 📂 Project Structure
+## 🔌 Vite React Plugins
 
-frontend-assignment/
-├── public/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ │ ├── JobPreview.jsx
-│ │ ├── Applicants.jsx
-│ │ ├── Match.jsx
-│ │ ├── Messages.jsx
-│ │ └── JobDetails.jsx
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
-├── tailwind.config.js
-├── postcss.config.js
-└── README.md
+This setup supports two official Vite plugins for React:
 
+1. [`@vitejs/plugin-react`](https://github.com/vitejs/vite-plugin-react)  
+   → Uses **Babel** for fast refresh and JSX transform.
+
+2. [`@vitejs/plugin-react-swc`](https://github.com/vitejs/vite-plugin-react-swc)  
+   → Uses **SWC** (Rust-based compiler) for even faster builds and refresh.
+   
+
+Choose one based on your project needs (default: Babel).
 
 ---
 
-## 🚀 Live Routes
+## 🚀 Getting Started
 
-| Route Path       | Description                        |
-|------------------|------------------------------------|
-| `/job-preview`   | Placeholder - Page yet to be implemented |
-| `/applicants`    | Placeholder - Page yet to be implemented |
-| `/match`         | Placeholder - Page yet to be implemented |
-| `/messages`      | Placeholder - Page yet to be implemented |
-| `/job-details/:id` | Job Details Page (main design)      |
+### 1. Clone the Repository
 
-Each unimplemented route will display a **"Page Yet To Be Implemented"** message.
+```
+git clone https://github.com/your-username/frontend_1.git
 
----
+cd frontend_1
+```
 
-## 🧩 Features
+## Install Dependencies
 
-✅ React Functional Components  
-✅ TailwindCSS Styling  
-✅ React Router DOM v6+  
-✅ Screenshot diff-ready layout  
-✅ Responsive design up to 1440px width
-
----
-
-## 📸 Screenshot Comparison Steps
-
-1. Install [GoFullPage](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl) Chrome extension.
-2. Capture your full webpage screenshot.
-3. Upload both the provided screenshot and your screenshot to [DiffChecker](https://www.diffchecker.com/image-diff/).
-4. Select **"Difference"** tab, export the result as PNG.
-5. Upload this PNG in the Google Form along with your GitHub repo link.
-
----
-
-## 📝 Evaluation Criteria
-
-| Criteria                          | Points |
-|----------------------------------|--------|
-| 🎨 UI/UX Match (Figma accuracy)   | 20     |
-| 🔁 Routing (/job-details/:id)     | 6      |
-| 📌 Sidebar & Header Layout        | 6      |
-| 🧾 Job Details Section Accuracy   | 8      |
-| 🖼️ Screenshot Difference Uploaded | 4      |
-| 🧱 Code Structure & Cleanliness   | 3      |
-| 📱 Responsiveness (mobile scaling)| 3      |
-
----
-
-## 🛠️ Getting Started
-
-### Prerequisites
-
-- Node.js and npm installed
-- Git
-
-### Installation
-
-```bash
-git clone https://github.com/YOUR_USERNAME/frontend-assignment.git
-cd frontend-assignment
 npm install
+# or
+yarn install
+
+
+## Run the Development Server
+
 npm run dev
+# or
+yarn dev
+
